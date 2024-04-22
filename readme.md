@@ -1,5 +1,5 @@
-# **Advanced ML DL Course Final Project: Digital Image Automation**
-**Authors**: Adi Douchan & Lilac Muhanna
+# **Advanced DL Course Final Project: Digital Image Automation**
+**Contributors**: Adi Dokhan & Lilac Muhanna
 
 ## **Project Overview**
 This project explores advanced automated methods for digital image editing, specifically through object detection and removal using deep learning techniques. By leveraging the COCO 2017 dataset and the FiftyOne library, we aim to improve efficiency and accuracy in processing digital images for varied applications, from aesthetic enhancements to privacy protection.
