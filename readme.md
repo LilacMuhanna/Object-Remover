@@ -22,5 +22,6 @@ This project explores advanced automated methods for digital image editing, spec
 Our project significantly advances the field of automated digital image processing, providing robust tools for object detection and seamless object removal. These improvements not only enhance user experience but also broaden the practical applications of image editing technology.
 
 
+![output_figure](https://github.com/LilacMuhanna/PixelPurge-Object-Remover-with-Deep-Learning/assets/155223486/057f97b3-8ddb-4ba9-abbf-2718811c67a1)
 
 
