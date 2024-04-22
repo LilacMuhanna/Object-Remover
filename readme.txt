@@ -1,23 +1,26 @@
+# **Advanced ML DL Course Final Project: Digital Image Automation**
+**Authors**: Adi Douchan & Lilac Muhanna
 
-# Advanced DL Course Final Project: Digital Image Automation
-Contributors:: Adi Dokhan & Lilac Muhanna
+## **Project Overview**
+This project explores advanced automated methods for digital image editing, specifically through object detection and removal using deep learning techniques. By leveraging the COCO 2017 dataset and the FiftyOne library, we aim to improve efficiency and accuracy in processing digital images for varied applications, from aesthetic enhancements to privacy protection.
 
-## Project Overview
+## **Components**
+### **Object Detection**
+- **Technique Used**: YOLOv5 for real-time object detection.
+- **Optimization**: Customized for efficient vehicle identification.
 
-This project focuses on developing automated methods for digital image editing, particularly the detection and removal of objects from images. Utilizing the COCO 2017 dataset and the FiftyOne library, we enhanced the process efficiency from data preprocessing to model training.
+### **Object Removal**
+- **Technique Used**: Mask R-CNN for precise object segmentation.
+- **Post-Processing**: DeepFill GANs employed to naturally reconstruct image areas post-object removal.
 
-## Components
+## **Highlights**
+- **Data Handling**: Automated data preprocessing and conversion from COCO format to YOLO using FiftyOne, focusing exclusively on vehicle-related images.
+- **Model Efficiency**: Enhanced YOLOv5's speed and accuracy for object detection; integrated DeepFill GAN for high-fidelity image restoration.
+- **User Interface**: Developed an intuitive interface that simplifies the uploading and editing process, enabling users to achieve desired outcomes with minimal effort.
 
-1. Object Detection in Images: Implementation of YOLOv5 for real-time object detection and its optimization for vehicle identification within images.
-2. Object Removal from Images: Use of Mask R-CNN for accurate object segmentation followed by the DeepFill GAN for reconstructing the image areas from which objects were removed.
+## **Conclusion**
+Our project significantly advances the field of automated digital image processing, providing robust tools for object detection and seamless object removal. These improvements not only enhance user experience but also broaden the practical applications of image editing technology.
 
-## Highlights
 
-- Data Handling: Automated the data conversion from COCO's JSON to YOLO format using FiftyOne, focusing on vehicle images to refine detection relevance.
-- Model Efficiency: Customized YOLOv5 to detect objects swiftly and accurately, with DeepFill GAN effectively filling in the removed areas, ensuring natural-looking images.
-- User Interface: Developed a user-friendly interface that allows for easy upload and processing of images, providing instant results without user-intensive operations.
 
-## Conclusion
-
-Our project demonstrates significant advancements in automated image processing, proving effective in both detecting and seamlessly removing objects. This sets a robust foundation for further exploration and development of more sophisticated image editing tools.
 
